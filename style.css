@@ -10,7 +10,6 @@
     background-size: cover;
     background-attachment: fixed;
     height: 100vh;
-    filter: blur(0.7px);
     background-position: center center;
 }
 body{
@@ -33,4 +32,27 @@ img .div1{
     margin: 5px;
     padding: 5px;
     border: 5px solid greenyellow;
+}
+/*Cuadro de login*/
+.login-content{
+    font-family: 'Luxurious Roman', cursive;
+    background-color: rgba(245, 245, 245, 0.918);
+    display: inline-block;
+    width: 30%;
+    height: 260px;
+    padding: 1%;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 1.3rem; 
+    position: relative;
+    top: 32%;
+    left: 34%;
+}
+.login-content-title{
+    font-family: 'Luxurious Roman', cursive; 
+    font-size: 2rem;
+}
+.login-content input{
+    width: 50%;
+    line-height: 1.5;
 }
