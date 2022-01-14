@@ -1,0 +1,26 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background-color: aquamarine;
+}
+h1{
+    font-weight: bolder;
+}
+.div1{
+    margin: 5px;
+    padding: 5px;
+    border: 5px solid black;
+}
+img .div1{
+    width: 25px;
+    height: 25px;
+}
+.div2{
+    margin: 5px;
+    padding: 5px;
+    border: 5px solid greenyellow;
+}
