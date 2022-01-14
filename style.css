@@ -5,7 +5,8 @@
     font-family: sans-serif;
 }
 body{
-    background-color: aquamarine;
+    background-image: url("universidad.jpg");
+    filter: blur(3px);
 }
 h1{
     font-weight: bolder;
