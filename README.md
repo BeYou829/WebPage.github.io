@@ -1,2 +1,2 @@
-# WebPage
+# WebPage.github.io
 Training
