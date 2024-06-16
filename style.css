@@ -1,58 +1,109 @@
-*{
-    padding: 0;
-    margin: 0;
+* {
+    padding: 0%;
     box-sizing: border-box;
-    font-family: sans-serif;
+    margin: 0%;
+    font-family: Roboto, sans-serif;
+    font-size: clamp(0.75rem, 1.5vw, 1.1rem);
 }
-.bg-image{
-    background-image: url("universidad.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    height: 100vh;
-    background-position: center center;
+
+nav {
+    width: 100vw;
+    height: 7vh;
+    background-color: #023877;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
 }
-body{
-    height: 100%;
-    font-family: sans-serif;
-} 
-h1{
-    font-weight: bolder;
+
+.logo {
+    width: 12em;
 }
-.div1{
-    margin: 5px;
-    padding: 5px;
-    border: 5px solid black;
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-img .div1{
-    width: 25px;
-    height: 25px;
+
+.logo img {
+    width: 8em;
+    height: auto;
 }
-.div2{
-    margin: 5px;
-    padding: 5px;
-    border: 5px solid greenyellow;
+
+.nav-menu-options {
+    flex: 1;
 }
-/*Cuadro de login*/
-.login-content{
-    font-family: 'Luxurious Roman', cursive;
-    background-color: rgba(245, 245, 245, 0.918);
+
+nav ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav ul li {
+    list-style: none;
     display: inline-block;
-    width: 30%;
-    height: 260px;
-    padding: 1%;
     text-align: center;
-    border-radius: 5px;
-    font-size: 1.3rem; 
-    position: relative;
-    top: 32%;
-    left: 34%;
 }
-.login-content-title{
-    font-family: 'Luxurious Roman', cursive; 
-    font-size: 2rem;
+
+nav ul li a,
+.social-media-icon a {
+    font-size: 1.2em;
+    text-decoration: none;
+    color: white;
 }
-.login-content input{
-    width: 50%;
-    line-height: 1.5;
+
+.social-media-icon {
+    width: 10em;
+    display: flex;
+    justify-content: space-evenly;
 }
+
+main {
+    width: 80%;
+    height: 88vh;
+    margin: 2vh auto;
+    display: flex;
+    justify-content: center;
+}
+
+main div h1 {
+    font-size: 4em;
+}
+
+@media (max-width: 800px) {
+    main div h1 {
+        color: #023877;
+    }
+}
+
+/* h1 {
+    text-align: center;
+}
+
+.container {
+    width: 90vw;
+    height: 50vh;
+    margin: auto;
+    background: #161212;
+    display: flex;
+    flex-direction: row;
+    Align Items in the Main (X) Axis
+    justify-content: space-evenly;
+    Align items in the Cross (Y) Axis
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.container div {
+    width: 100px;
+    height: 100px;
+    flex-basis: 400px;
+    background: #c69c9c;
+    border: 2px solid white;
+}
+
+.container div:nth-of-type(1) {
+    flex-grow: 1;
+} */
